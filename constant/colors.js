@@ -1,0 +1,15 @@
+export default {
+  text_white: "#FFFFFF",
+  background_white: "#FFFFFF",
+  text_version: "#D8D8D8",
+  background_product_grey: "#C1C1C1",
+  text_google_grey: "#6D7278",
+  text_input: "#9A9999",
+  icon_profile_grey: "#BFBDBD",
+  background_reservation_grey: "#5F5F5F",
+  main_green: "#00C367",
+  background_facebook_blue: "#4B74FF",
+  btn_action: "#0091FF",
+  text_description_black: "#3A3A3A",
+  text_category_black: "#000000",
+};
