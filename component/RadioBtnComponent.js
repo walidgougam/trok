@@ -11,7 +11,9 @@ export default function RadioBtnComponent(props) {
         //   status={checked === "second" ? "checked" : "unchecked"}
         //   onPress={() => setChecked("second")}
       />
-      <Text style={styles.text_description}>{props.title}</Text>
+      <View>
+        <Text style={styles.text_description}>{props.title}</Text>
+      </View>
     </View>
   );
 }
@@ -19,8 +21,10 @@ export default function RadioBtnComponent(props) {
 const styles = StyleSheet.create({
   btn: {
     flexDirection: "row",
+    alignItems: "center",
   },
   text_description: {
     ...css.text_description,
+    marginBottom: 0,
   },
 });

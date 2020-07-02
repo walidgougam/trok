@@ -26,52 +26,13 @@ const Stack = createStackNavigator();
 const MaterialTopTabs = createMaterialTopTabNavigator();
 const MaterialBottomTabs = createMaterialBottomTabNavigator();
 
-// const createHomeStack = () => {
-//   return (
-//     <Stack.Navigator>
-//       <Stack.Screen
-//         name="Email"
-//         component={EmailScreen}
-//         options={{ headerShown: false }}
-//       />
-//     </Stack.Navigator>
-//   );
-// };
-const createLoginStack = () => {
+const createBottomTabs = () => {
   return (
-    <Stack.Navigator>
-      <Stack.Screen
-        name="Login"
-        component={LoginScreen}
-        options={{ headerShown: false }}
-      />
-      <Stack.Screen
-        name="Email"
-        component={EmailScreen}
-        options={{ headerShown: false }}
-      />
-      <Stack.Screen
-        name="Name"
-        component={NameScreen}
-        options={{ headerShown: false }}
-      />
-      <Stack.Screen
-        name="Picture"
-        component={PictureScreen}
-        options={{ headerShown: false }}
-      />
-    </Stack.Navigator>
-  );
-};
-const createProductStack = () => {
-  return (
-    <Stack.Navigator>
-      <Stack.Screen
-        name="Product"
-        component={ProductSheetScreen}
-        options={{ headerShown: false }}
-      />
-    </Stack.Navigator>
+    <MaterialBottomTabs.Navigator>
+      <MaterialBottomTabs.Screen name="tab4" component={LoginScreen} />
+      <MaterialBottomTabs.Screen name="tab5" component={EmailScreen} />
+      <MaterialBottomTabs.Screen name="tab6" component={NameScreen} />
+    </MaterialBottomTabs.Navigator>
   );
 };
 
@@ -103,6 +64,11 @@ export default function App() {
           <Stack.Screen
             name="Gender"
             component={GenderScreen}
+            options={{ headerShown: false }}
+          />
+          <Stack.Screen
+            name="HomeBottomTab"
+            component={createBottomTabs}
             options={{ headerShown: false }}
           />
         </Stack.Navigator>

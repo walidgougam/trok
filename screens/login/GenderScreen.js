@@ -37,6 +37,12 @@ export default function GenderScreen({ navigation }) {
             <RadioButton title="une femme" />
           </View>
         </View>
+        <BtnBlueAction
+          title="Terminer"
+          backgroundColor={colors.btn_action}
+          color={colors.background_white}
+          navigation={() => navigation.navigate("HomeBottomTab")}
+        />
       </View>
     </View>
   );
