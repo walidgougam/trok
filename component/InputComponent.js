@@ -8,7 +8,11 @@ import {
   TouchableOpacity,
 } from "react-native";
 import colors from "../constant/colors";
-import { WrongEmail, GoodEmail, HidePassword } from "../assets/icon/Icon";
+import {
+  WrongEmailIcon,
+  GoodEmailIcon,
+  HidePasswordIcon,
+} from "../assets/icon/Icon";
 import normalize from "react-native-normalize";
 
 export default function InputComponent(props) {
@@ -34,10 +38,10 @@ export default function InputComponent(props) {
             style={{ marginRight: normalize(13) }}
             onPress={props.showPassword}
           >
-            <HidePassword />
+            <HidePasswordIcon />
           </TouchableOpacity>
         )}
-        {props.error ? props.login && <WrongEmail /> : <GoodEmail />}
+        {props.error ? props.login && <WrongEmailIcon /> : <GoodEmailIcon />}
       </View>
     </View>
   );

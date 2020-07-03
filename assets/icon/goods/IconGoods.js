@@ -2,7 +2,7 @@ import React from "react";
 import { View, Text } from "react-native";
 import { SvgXml } from "react-native-svg";
 
-export function Animaux() {
+export function AnimauxIcon() {
   const smile = `<svg width="43px" height="41px" viewBox="0 0 43 41" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <title>ABB3CB00-DF64-4E07-A0B9-0BD583EF3894</title>
   <g id="Android-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -21,7 +21,7 @@ export function Animaux() {
   return <SmileSvg />;
 }
 
-export function BeauteBienetre() {
+export function BeauteBienetreIcon() {
   const smile = `<svg width="44px" height="44px" viewBox="0 0 44 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <title>E0594E6A-57D3-4FAE-B692-778C2AE2847B</title>
   <g id="Android-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -41,7 +41,7 @@ export function BeauteBienetre() {
   return <SmileSvg />;
 }
 
-export function Decoration() {
+export function DecorationIcon() {
   const smile = `<svg width="39px" height="44px" viewBox="0 0 39 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <title>8DAFC09A-4354-421E-8223-6AFDCDD89EE7</title>
   <g id="Android-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
@@ -56,7 +56,7 @@ export function Decoration() {
   return <SmileSvg />;
 }
 
-export function Entretient() {
+export function EntretientIcon() {
   const smile = `<svg width="43px" height="42px" viewBox="0 0 43 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <title>FE7E3B28-483B-4BB4-8A97-6D727B5F740F</title>
   <g id="Android-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -79,7 +79,7 @@ export function Entretient() {
   return <SmileSvg />;
 }
 
-export function FeteEvenement() {
+export function FeteEvenementIcon() {
   const smile = `<svg width="44px" height="42px" viewBox="0 0 44 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <title>47738B97-7BB5-4069-90E1-73965DABB5DC</title>
   <g id="Android-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -101,7 +101,7 @@ export function FeteEvenement() {
   return <SmileSvg />;
 }
 
-export function Hightech() {
+export function HightechIcon() {
   const smile = `<svg width="42px" height="30px" viewBox="0 0 42 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <title>D5B2CC72-9C28-44B4-8C0A-0D4042CC5A34</title>
   <g id="Android-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -119,7 +119,7 @@ export function Hightech() {
   return <SmileSvg />;
 }
 
-export function Loisir() {
+export function LoisirIcon() {
   const smile = `<svg width="36px" height="46px" viewBox="0 0 36 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>EB7935C7-7AB5-4F68-A723-6E83759BBF2E</title>
     <g id="Android-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
@@ -136,7 +136,7 @@ export function Loisir() {
   return <SmileSvg />;
 }
 
-export function MaterielJardin() {
+export function MaterielJardinIcon() {
   const smile = `<svg width="44px" height="43px" viewBox="0 0 44 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <title>959FF442-4FBF-4A4D-9E80-42B9350373ED</title>
   <g id="Android-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -155,7 +155,7 @@ export function MaterielJardin() {
   return <SmileSvg />;
 }
 
-export function MaterielSport() {
+export function MaterielSportIcon() {
   const smile = `<svg width="42px" height="42px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <title>4AA4E5B1-3BE1-401E-B202-06B48C74383C</title>
   <g id="Android-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -186,7 +186,7 @@ export function MaterielSport() {
   return <SmileSvg />;
 }
 
-export function Meuble() {
+export function MeubleIcon() {
   const smile = `<svg width="39px" height="42px" viewBox="0 0 39 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <title>6DDF0B0B-022E-4241-9DAF-062112959AD1</title>
   <g id="Android-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
@@ -201,7 +201,7 @@ export function Meuble() {
   return <SmileSvg />;
 }
 
-export function ModeAccessoire() {
+export function ModeAccessoireIcon() {
   const smile = `<svg width="39px" height="42px" viewBox="0 0 39 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>431515C8-B365-4513-A21B-B2D76E005218</title>
     <g id="Android-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Text, View, StyleSheet, Image, TouchableOpacity } from "react-native";
 import colors from "../constant/colors";
-import { ArrowLeft } from "../assets/icon/Icon";
+import { ArrowLeftIcon } from "../assets/icon/Icon";
 import normalize from "react-native-normalize";
 
 const BackgroundBicolor = (props) => {
@@ -10,7 +10,7 @@ const BackgroundBicolor = (props) => {
       <View style={styles.header}>
         <View style={styles.wrapper_header_title}>
           <TouchableOpacity>
-            <ArrowLeft />
+            <ArrowLeftIcon />
           </TouchableOpacity>
 
           <Text style={styles.text_header}>{props.headerTitle}</Text>

@@ -8,7 +8,7 @@ import {
   useNavigationState,
 } from "@react-navigation/native";
 import colors from "../../constant/colors";
-import { ProfileWhite } from "../../assets/icon/Icon";
+import { ProfileWhiteIcon } from "../../assets/icon/Icon";
 import css from "../../constant/css";
 
 import GreenLineLoaderLogin from "../../component/GreenLineLoaderLogin";
@@ -33,8 +33,8 @@ export default function GenderScreen({ navigation }) {
           <Text style={styles.title}>Pour finir !</Text>
           <Text style={styles.text_description}>Vous êtes</Text>
           <View>
-            <RadioButton title="un homme" />
-            <RadioButton title="une femme" />
+            <RadioButton title="un trokeur" />
+            <RadioButton title="une trokeuse" />
           </View>
         </View>
         <BtnBlueAction

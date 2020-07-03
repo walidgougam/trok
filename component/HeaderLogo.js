@@ -4,14 +4,11 @@ import { ArrowLeftIcon } from "../assets/icon/Icon";
 import normalize from "react-native-normalize";
 import colors from "../constant/colors";
 
-export default function HeaderComponent({ navigation }) {
+export default function HeaderLogo({ navigation }) {
   return (
     <View style={styles.header}>
       <View style={styles.wrapper_header_title}>
-        <TouchableOpacity onPress={() => navigation.goBack()}>
-          <ArrowLeftIcon />
-        </TouchableOpacity>
-        <Text style={styles.text_header}>Créer mon compte</Text>
+        <Text style={styles.text_header}>Logo</Text>
       </View>
     </View>
   );

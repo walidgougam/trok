@@ -23,9 +23,11 @@ export default function BtnBlueAction(props) {
 const styles = StyleSheet.create({
   btn: {
     marginHorizontal: normalize(70),
+    height: 42,
     borderRadius: normalize(26),
     borderWidth: 1,
     borderColor: colors.btn_action,
+    justifyContent: "center",
   },
   title: {
     fontSize: normalize(16, "fontSize"),

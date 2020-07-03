@@ -35,7 +35,7 @@ export function IconGoogle() {
   return <SmileSvg />;
 }
 
-export function AddOrange() {
+export function AddOrangeIcon() {
   const smile = `<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <title>D1C33445-73F6-4715-BF41-980DCFECA7F0</title>
   <g id="Android-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -51,7 +51,7 @@ export function AddOrange() {
   return <SmileSvg />;
 }
 
-export function AddWhite() {
+export function AddWhiteIcon() {
   const smile = `<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <title>2007D814-911D-454A-A534-EB554A1DC43C</title>
   <g id="Android-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -67,7 +67,7 @@ export function AddWhite() {
   return <SmileSvg />;
 }
 
-export function ArrowLeft() {
+export function ArrowLeftIcon() {
   const smile = `<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <title>8AAD0051-AFE5-4D93-A265-170F21F79267</title>
   <g id="Android-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -85,7 +85,7 @@ export function ArrowLeft() {
   return <SmileSvg />;
 }
 
-export function GoodEmail() {
+export function GoodEmailIcon() {
   const smile = `<svg width="13px" height="13px" viewBox="0 0 13 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <title>5B93D914-6F90-492F-9124-028C248F83F8</title>
   <g id="Android-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -101,7 +101,7 @@ export function GoodEmail() {
   return <SmileSvg />;
 }
 
-export function Heart() {
+export function HeartIcon() {
   const smile = `<svg width="29px" height="26px" viewBox="0 0 29 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <title>7BA56990-D46C-46E8-8C6E-2F785A65A1F7</title>
   <g id="Android-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -116,7 +116,7 @@ export function Heart() {
   return <SmileSvg />;
 }
 
-export function HeartMini() {
+export function HeartMiniIcon() {
   const smile = `<svg width="14px" height="13px" viewBox="0 0 14 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <title>6BE5A284-1812-462D-BAD8-280F010A7CCC</title>
   <g id="Android-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -131,7 +131,7 @@ export function HeartMini() {
   return <SmileSvg />;
 }
 
-export function HidePassword() {
+export function HidePasswordIcon() {
   const smile = `<svg width="23px" height="15px" viewBox="0 0 23 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <title>FE07302D-95E9-4E56-B35C-A2EFF2BF7891</title>
   <g id="Android-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -147,7 +147,7 @@ export function HidePassword() {
   return <SmileSvg />;
 }
 
-export function HomeOrange() {
+export function HomeOrangeIcon() {
   const smile = `<svg width="22px" height="20px" viewBox="0 0 22 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <title>A1331B66-6A1C-49E2-9FAB-C6C9E2D1B1A1</title>
   <g id="Android-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -163,7 +163,7 @@ export function HomeOrange() {
   return <SmileSvg />;
 }
 
-export function HomeWhite() {
+export function HomeWhiteIcon() {
   const smile = `<svg width="24px" height="22px" viewBox="0 0 24 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <title>93B181AC-BD12-4BE5-AFA3-CFD4CD67AF55</title>
   <defs>
@@ -186,7 +186,7 @@ export function HomeWhite() {
   return <SmileSvg />;
 }
 
-export function Map() {
+export function MapIcon() {
   const smile = `<svg width="220px" height="156px" viewBox="0 0 220 156" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <title>4FE34243-6ACC-4927-9DE7-2BED33407267</title>
   <defs>
@@ -1195,7 +1195,7 @@ export function Map() {
   return <SmileSvg />;
 }
 
-export function MessageOrange() {
+export function MessageOrangeIcon() {
   const smile = `<svg width="26px" height="20px" viewBox="0 0 26 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <title>9AE25AD8-C3D3-41F0-8B7D-F8A11A007C96</title>
   <g id="Android-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -1211,7 +1211,7 @@ export function MessageOrange() {
   return <SmileSvg />;
 }
 
-export function MessageWhite() {
+export function MessageWhiteIcon() {
   const smile = `<svg width="26px" height="20px" viewBox="0 0 26 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <title>58B7C2D0-55A7-4612-AC86-3596F4A967A8</title>
   <g id="Android-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -1227,7 +1227,7 @@ export function MessageWhite() {
   return <SmileSvg />;
 }
 
-export function Notification() {
+export function NotificationIcon() {
   const smile = `<svg width="22px" height="28px" viewBox="0 0 22 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <title>1A6CD5CB-B436-4662-94D0-C7C4BA65075E</title>
   <g id="Android-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -1243,7 +1243,7 @@ export function Notification() {
   return <SmileSvg />;
 }
 
-export function Position() {
+export function PositionIcon() {
   const smile = `<svg width="9px" height="13px" viewBox="0 0 9 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <title>C67465B7-49DC-440A-B415-81D74D624268</title>
   <g id="Android-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -1258,7 +1258,7 @@ export function Position() {
   return <SmileSvg />;
 }
 
-export function ProfileOrange() {
+export function ProfileOrangeIcon() {
   const smile = `<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <title>DFC2FA2A-F96D-48A7-A0D1-CB976F0A0CA2</title>
   <g id="Android-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -1273,8 +1273,23 @@ export function ProfileOrange() {
   return <SmileSvg />;
 }
 
-export function ProfileWhite(props) {
-  const smile = `<svg width="133px" height="133px" viewBox="0 0 133 133" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+export function ProfileWhiteIcon() {
+  const smile = `<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>8DCC24A8-2F58-4D00-B3D1-BBBC99A87A2F</title>
+    <g id="Android-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="UI-KIT" transform="translate(-320.000000, -147.000000)" stroke="#5F5F5F">
+            <g id="icons8-user" transform="translate(321.000000, 148.000000)">
+                <path d="M10,0 C8.21367206,0 6.56303696,0.952994584 5.66987298,2.5 C4.77670901,4.04700537 4.77670901,5.95299463 5.66987298,7.5 C6.56303696,9.04700542 8.21367206,10 10,10 C11.7863279,10 13.436963,9.04700542 14.330127,7.5 C15.223291,5.95299463 15.223291,4.04700537 14.330127,2.5 C13.436963,0.952994584 11.7863279,0 10,0 Z M20,20 L0,20 L0,18.125 C0,15.71 6.05125,13.75 10,13.75 C13.94875,13.75 20,15.71 20,18.125 L20,20 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>`;
+  const SmileSvg = () => <SvgXml xml={smile} />;
+  return <SmileSvg />;
+}
+
+export function ProfilePictureIcon(props) {
+  const smile = `<svg width=${props.width} height=${props.height} viewBox="0 0 133 133" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <title>DD70A7F3-56DA-487E-AD14-B0BCBE62BA51</title>
   <g id="Android-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
       <g id="1.5-Log-in" transform="translate(-114.000000, -227.000000)">
@@ -1291,7 +1306,7 @@ export function ProfileWhite(props) {
   return <SmileSvg />;
 }
 
-export function SearchOrange() {
+export function SearchOrangeIcon() {
   const smile = `<svg width="22px" height="23px" viewBox="0 0 22 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <title>92B4A4DD-03A9-438C-A14B-5FD953F9AC3C</title>
   <g id="Android-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -1307,7 +1322,7 @@ export function SearchOrange() {
   return <SmileSvg />;
 }
 
-export function SearchWhite() {
+export function SearchWhiteIcon() {
   const smile = `<svg width="22px" height="23px" viewBox="0 0 22 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <title>29DD6E9C-F2F7-422E-9A55-4A2A1ED21677</title>
   <g id="Android-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -1323,7 +1338,7 @@ export function SearchWhite() {
   return <SmileSvg />;
 }
 
-export function Share() {
+export function ShareIcon() {
   const smile = `<svg width="30px" height="27px" viewBox="0 0 30 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <title>6FB374E7-B14A-422C-A0A5-9E6EAEE0E8D9</title>
   <g id="Android-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -1338,7 +1353,7 @@ export function Share() {
   return <SmileSvg />;
 }
 
-export function StarEmpty() {
+export function StarEmptyIcon() {
   const smile = `<svg width="16px" height="15px" viewBox="0 0 16 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <title>C4EBDFB9-33E1-455B-AE40-AEADDF9E64F0</title>
   <g id="Android-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.375046503">
@@ -1353,7 +1368,7 @@ export function StarEmpty() {
   return <SmileSvg />;
 }
 
-export function StarFull() {
+export function StarFullIcon() {
   const smile = `<svg width="16px" height="15px" viewBox="0 0 16 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <title>0CD912B7-8461-4C12-B146-D8A0CF5D2C92</title>
   <g id="Android-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -1368,7 +1383,7 @@ export function StarFull() {
   return <SmileSvg />;
 }
 
-export function WrongEmail() {
+export function WrongEmailIcon() {
   const smile = `<svg width="13px" height="13px" viewBox="0 0 13 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <title>35873BDC-8D7D-49A7-AB64-5F4B20417163</title>
   <g id="Android-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">

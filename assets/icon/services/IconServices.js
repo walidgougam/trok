@@ -2,7 +2,7 @@ import React from "react";
 import { View, Text } from "react-native";
 import { SvgXml } from "react-native-svg";
 
-export function BricolageTravaux() {
+export function BricolageTravauxIcon() {
   const smile = `<svg width="38px" height="37px" viewBox="0 0 38 37" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <title>394F1AE8-0840-4A81-8C2B-54FE4C06B796</title>
   <g id="Android-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -15,7 +15,7 @@ export function BricolageTravaux() {
   return <SmileSvg />;
 }
 
-export function CoursFormation() {
+export function CoursFormationIcon() {
   const smile = `<svg width="46px" height="46px" viewBox="0 0 46 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <title>B90962C4-246B-41CF-996E-005FFBCB522F</title>
   <g id="Android-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -35,7 +35,7 @@ export function CoursFormation() {
   return <SmileSvg />;
 }
 
-export function DemenagementManutention() {
+export function DemenagementManutentionIcon() {
   const smile = `<svg width="41px" height="48px" viewBox="0 0 41 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <title>6C817E23-8FB1-46F0-AC65-E6254B7E4D01</title>
   <g id="Android-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -54,7 +54,7 @@ export function DemenagementManutention() {
   return <SmileSvg />;
 }
 
-export function DepannageReparation() {
+export function DepannageReparationIcon() {
   const smile = `<svg width="46px" height="46px" viewBox="0 0 46 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <title>174A7FA9-519C-4CD7-B50A-3157CC00A361</title>
   <g id="Android-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -73,7 +73,7 @@ export function DepannageReparation() {
   return <SmileSvg />;
 }
 
-export function GardePromenade() {
+export function GardePromenadeIcon() {
   const smile = `<svg width="43px" height="41px" viewBox="0 0 43 41" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <title>3F2B5E7B-23AD-4F04-947F-695B72F2496C</title>
   <g id="Android-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -92,7 +92,7 @@ export function GardePromenade() {
   return <SmileSvg />;
 }
 
-export function JardinagePiscine() {
+export function JardinagePiscineIcon() {
   const smile = `<svg width="41px" height="41px" viewBox="0 0 41 41" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <title>1EE67C40-18E0-4A61-966F-4651087679C2</title>
   <g id="Android-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
@@ -110,7 +110,7 @@ export function JardinagePiscine() {
   return <SmileSvg />;
 }
 
-export function Menage() {
+export function MenageIcon() {
   const smile = `<svg width="43px" height="42px" viewBox="0 0 43 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <title>D59177DA-F898-4A5A-83DC-0F7BEF6D1F43</title>
   <g id="Android-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -133,7 +133,7 @@ export function Menage() {
   return <SmileSvg />;
 }
 
-export function ModeBeaute() {
+export function ModeBeauteIcon() {
   const smile = `<svg width="37px" height="45px" viewBox="0 0 37 45" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <title>8EB019E9-621D-4BF7-983E-2DABDDF91673</title>
   <g id="Android-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -152,7 +152,7 @@ export function ModeBeaute() {
   return <SmileSvg />;
 }
 
-export function RestaurationReception() {
+export function RestaurationReceptionIcon() {
   const smile = `<svg width="42px" height="42px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <title>7E10FCF7-68FB-476A-A15B-553715296126</title>
   <g id="Android-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
@@ -167,7 +167,7 @@ export function RestaurationReception() {
   return <SmileSvg />;
 }
 
-export function Sante() {
+export function SanteIcon() {
   const smile = `<svg width="39px" height="42px" viewBox="0 0 39 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <title>96B37DF1-789D-45F1-B1B1-C95A3DF15F23</title>
   <g id="Android-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -185,7 +185,7 @@ export function Sante() {
   return <SmileSvg />;
 }
 
-export function ServicePersonne() {
+export function ServicePersonneIcon() {
   const smile = `<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <title>8DA9242D-BE43-49ED-8680-B615A1E98464</title>
   <g id="Android-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">

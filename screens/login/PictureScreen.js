@@ -8,12 +8,12 @@ import {
   useNavigationState,
 } from "@react-navigation/native";
 import colors from "../../constant/colors";
-import { ProfileWhite } from "../../assets/icon/Icon";
 import css from "../../constant/css";
 
 import GreenLineLoaderLogin from "../../component/GreenLineLoaderLogin";
 import HeaderComponent from "../../component/HeaderComponent";
 import BtnBlueAction from "../../component/BtnBlueAction";
+import PictureProfileComponent from "../../component/PictureProfileComponent";
 
 export default function PictureScreen({ navigation }) {
   const route = useRoute();
@@ -34,10 +34,11 @@ export default function PictureScreen({ navigation }) {
           <Text style={styles.text_description}>
             Vous aurez plus de chance d’échanger avec votre photo !
           </Text>
-          <View style={styles.wrapper_profile_icon}>
-            <ProfileWhite />
-            <Text style={styles.pseudo}>user_pseudo</Text>
-          </View>
+          <PictureProfileComponent
+            width={133}
+            height={133}
+            title="user_pseudo"
+          />
         </View>
         <View>
           <BtnBlueAction
@@ -71,16 +72,6 @@ const styles = StyleSheet.create({
   },
   text_description: {
     ...css.text_description,
-  },
-  wrapper_profile_icon: {
-    alignItems: "center",
-    marginTop: 62,
-  },
-  pseudo: {
-    marginTop: 12,
-    color: colors.text_description_black,
-    fontSize: 14,
-    fontFamily: "Avenir Medium",
-    lineHeight: 20,
+    marginBottom: 62,
   },
 });

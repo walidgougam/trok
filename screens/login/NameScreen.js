@@ -7,14 +7,14 @@ import {
   useFocusEffect,
   useNavigationState,
 } from "@react-navigation/native";
+import css from "../../constant/css";
+import colors from "../../constant/colors";
 
 import BackgroundBicolor from "../../component/BackgroundBicolor";
 import InputComponent from "../../component/InputComponent";
-import colors from "../../constant/colors";
 import GreenLineLoaderLogin from "../../component/GreenLineLoaderLogin";
 import HeaderComponent from "../../component/HeaderComponent";
 import BtnBlueAction from "../../component/BtnBlueAction";
-import css from "../../constant/css";
 
 const NameScreen = ({ navigation }) => {
   const [firstname, setFirstname] = useState("");

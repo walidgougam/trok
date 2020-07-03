@@ -3,6 +3,19 @@ import React from "react";
 import { Text, View, StyleSheet, Icon, Dimensions } from "react-native";
 import { GlobalProvider } from "./context/globalState";
 import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityIcons";
+import {
+  HomeWhiteIcon,
+  HomeOrangeIcon,
+  SearchWhiteIcon,
+  SearchOrangeIcon,
+  AddWhiteIcon,
+  AddOrangeIcon,
+  MessageWhiteIcon,
+  MessageOrangeIcon,
+  ProfileWhiteIcon,
+  ProfileOrangeIcon,
+} from "./assets/icon/Icon";
+import colors from "./constant/colors";
 
 import ProductSheetScreen from "./screens/ProductSheetScreen";
 import LoginScreen from "./screens/login/LoginScreen";
@@ -10,6 +23,8 @@ import EmailScreen from "./screens/login/EmailScreen";
 import NameScreen from "./screens/login/NameScreen";
 import PictureScreen from "./screens/login/PictureScreen";
 import GenderScreen from "./screens/login/GenderScreen";
+import HomeScreen from "./screens/home/HomeScreen";
+import ProfileScreen from "./screens/profile/ProfileScreen";
 
 import { createDrawerNavigator } from "@react-navigation/drawer";
 import { createStackNavigator } from "@react-navigation/stack";
@@ -26,12 +41,68 @@ const Stack = createStackNavigator();
 const MaterialTopTabs = createMaterialTopTabNavigator();
 const MaterialBottomTabs = createMaterialBottomTabNavigator();
 
+const profileStack = () => {
+  return (
+    <Stack.Navigator>
+      <Stack.Screen
+        name="Profile"
+        component={ProfileScreen}
+        options={{ headerShown: false }}
+      />
+    </Stack.Navigator>
+  );
+};
+
 const createBottomTabs = () => {
   return (
-    <MaterialBottomTabs.Navigator>
-      <MaterialBottomTabs.Screen name="tab4" component={LoginScreen} />
-      <MaterialBottomTabs.Screen name="tab5" component={EmailScreen} />
-      <MaterialBottomTabs.Screen name="tab6" component={NameScreen} />
+    <MaterialBottomTabs.Navigator
+      barStyle={{ backgroundColor: colors.background_white }}
+    >
+      <MaterialBottomTabs.Screen
+        name="Home"
+        component={HomeScreen}
+        options={{
+          tabBarLabel: "",
+          tabBarIcon: ({ focused }) =>
+            focused ? <HomeOrangeIcon /> : <HomeWhiteIcon />,
+        }}
+      />
+      <MaterialBottomTabs.Screen
+        name="tab5"
+        component={EmailScreen}
+        options={{
+          tabBarLabel: "",
+          tabBarIcon: ({ focused }) =>
+            focused ? <SearchOrangeIcon /> : <SearchWhiteIcon />,
+        }}
+      />
+      <MaterialBottomTabs.Screen
+        name="tab6"
+        component={NameScreen}
+        options={{
+          tabBarLabel: "",
+          tabBarIcon: ({ focused }) =>
+            focused ? <AddOrangeIcon /> : <AddWhiteIcon />,
+        }}
+      />
+      <MaterialBottomTabs.Screen
+        name="tab7"
+        component={NameScreen}
+        options={{
+          tabBarLabel: "",
+          tabBarIcon: ({ focused }) =>
+            focused ? <MessageOrangeIcon /> : <MessageWhiteIcon />,
+        }}
+      />
+      <MaterialBottomTabs.Screen
+        name="tab8"
+        component={profileStack}
+        options={{
+          tabBarLabel: "",
+          tabBarIcon: ({ focused }) =>
+            focused ? <ProfileOrangeIcon /> : <ProfileWhiteIcon />,
+        }}
+      />
     </MaterialBottomTabs.Navigator>
   );
 };
@@ -69,7 +140,10 @@ export default function App() {
           <Stack.Screen
             name="HomeBottomTab"
             component={createBottomTabs}
-            options={{ headerShown: false }}
+            options={{
+              headerShown: false,
+              headerStyle: { backgroundColor: "purple" },
+            }}
           />
         </Stack.Navigator>
       </GlobalProvider>
